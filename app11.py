@@ -42,6 +42,7 @@ def get_response(user_input):
 # Streamlit 인터페이스
 st.title("통행약자 인도 보행 어씨스턴트 서비스")
 st.write("이 서비스 관한 질문을 하세요 예: 프로젝트 주제가 어떻게 되나요? ")
+st.image("app_image.png", caption="Welcome to the Restaurant Chatbot", use_column_width=True) # 이미지 표시 
 
 user_input = st.text_input("user", "")
 
